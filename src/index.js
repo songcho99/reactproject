@@ -8,10 +8,11 @@ import Ex02_Info from './Ex02_Info';
 import Ex03_ArrayFunc from './Ex03_ArrayFunc';
 import Ex04_Material from './Ex04_Material';
 import Ex05_SimpleMenu from './Ex05_SimpleMenu';
+import Example from './Example';
 
 ReactDOM.render(
   <React.StrictMode>
-    <Ex05_SimpleMenu />
+    <Example />
   </React.StrictMode>,
   document.getElementById('root')
 );
